@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sample-flask-sam-app"
+version = "0.1.0"
+description = ""
+authors = ["aocm <aocm.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.0.3"
+aws-wsgi = "^0.2.7"
+pre-commit = "^4.0.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+pytest = "^8.3.3"
+boto3 = "^1.35.58"
+pytest-mock = "^3.14.0"
+moto = "^5.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
