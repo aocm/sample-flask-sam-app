@@ -1,5 +1,16 @@
 # flask-sam-app
 
+## ローカル開発
+事前インストール
+
+- python3.12
+- poetry
+
+```
+poetry run flask --app .\lambda_handler\app.py run
+```
+
+
 ## キャッシュ作成例
 API Gatewayでキャッシュを利用することで、DBアクセスの負荷を減らし、レスポンス時間を短縮することができます。
 ### キャッシュの有効化:
